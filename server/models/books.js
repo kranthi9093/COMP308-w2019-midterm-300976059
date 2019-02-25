@@ -1,3 +1,10 @@
+/*
+File: books.js model code
+Name: Kranthi kumar Janardhanaraj
+Student ID: 300976059
+Web Application Name: COMP308-W2019-Midterm
+*/
+
 let mongoose = require('mongoose');
 
 // create a model class

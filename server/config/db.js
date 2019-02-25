@@ -1,3 +1,11 @@
+
+/*
+File: db.js  db configuration
+Name: Kranthi kumar Janardhanaraj
+Student ID: 300976059
+Web Application Name: COMP308-W2019-Midterm
+*/
+
 module.exports = {
   //local MongoDB deployment ->
   //"URI": "mongodb://localhost/books308"

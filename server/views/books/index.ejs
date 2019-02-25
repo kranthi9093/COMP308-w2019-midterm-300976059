@@ -1,3 +1,11 @@
+
+<!--
+File: index.ejs book details page
+Name: Kranthi kumar Janardhanaraj
+Student ID: 300976059
+Web App Name: COMP308-W2019-Midterm
+-->
+
 <% include ../partials/header.ejs %>
 
     <!-- MAIN CONTENT -->
@@ -8,14 +16,15 @@
 
           <a href="/books/add" class="btn btn-primary"><i class="fa fa-plus"></i> Add a book</a>
           <br>
+          <br>
           <div class="table-responsive">
             <table class="table table-bordered table-striped table-hover">
               <thead>
                 <tr>
-                  <th>Title</th>
-                  <th class="text-center">Price</th>
-                  <th class="text-center">Author</th>
-                  <th class="text-center">Genre</th>
+                  <th><i class="fa fa-book"></i><font color="blue">Title</th></font>
+                  <th class="text-center"><i class="fa fa-credit-card"></i><font color="blue"> Price</th></font>
+                  <th class="text-center"><i class="fa fa-user"></i><font color="blue"> Author</th></font>
+                  <th class="text-center"><i class="fa fa-film"></i><font color="blue"> Genre</th></font>
                   <th class="text-center"></th>
                   <th class="text-center"></th>
                 </tr>
@@ -30,11 +39,11 @@
                   <td class="text-center"><%= books[count].Genre %></td>
                   <td class="text-center">
                     <a href="/books/<%= books[count]._id %>"
-                        class="btn btn-primary"><i class="fas fa-pencil-alt"></i> Edit</a>
+                        class="btn btn-primary"><i class="fa fa-edit"></i> Edit</a>
                     </td>
                   <td class="text-center">
                     <a href="/books/delete/<%= books[count]._id %>"
-                        class="btn btn-danger"><i class="fas fa-trash-alt"></i> Delete</a>
+                        class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
                    
                   </td>
                   </td>

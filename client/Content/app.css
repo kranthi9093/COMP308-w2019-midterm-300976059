@@ -1,5 +1,15 @@
 /* Custom CSS goes here */
+
+/*
+File: app.css style sheet code
+Name: Kranthi kumar Janardhanaraj
+Student ID: 300976059
+Web Application Name: COMP308-W2019-Midterm
+*/
+
+
 body {
-  padding-bottom: 70px;
+  padding-bottom: 70px; 
+  background-image: url("/client/Assets/images/bg.png")
   }
 
