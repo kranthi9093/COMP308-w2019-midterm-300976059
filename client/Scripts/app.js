@@ -1,5 +1,13 @@
 /* custom JS goes here */
 
+
+/*
+File: app.js  javascript code
+Name: Kranthi kumar Janardhanaraj
+Student ID: 300976059
+Web Application Name: COMP308-W2019-Midterm
+*/
+
 /* pagination code from http://www.bootply.com/lxa0FF9yhw */
 $.fn.pageMe = function(opts){
     var $this = this,

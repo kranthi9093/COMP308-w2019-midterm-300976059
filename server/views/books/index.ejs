@@ -33,10 +33,10 @@ Web App Name: COMP308-W2019-Midterm
                 <!-- Template Row -->
                 <% for (let count = 0; count < books.length; count++) { %>
                 <tr>
-                  <td><%= books[count].Title %></td>
-                  <td class="text-center">$<%= books[count].Price %></td>
-                  <td class="text-center"><%= books[count].Author %></td>
-                  <td class="text-center"><%= books[count].Genre %></td>
+                  <td><b><%= books[count].Title %></b></td>
+                  <td class="text-center"><b><%= books[count].Price %></b></td>
+                  <td class="text-center"><b><%= books[count].Author %></b></td>
+                  <td class="text-center"><b><%= books[count].Genre %></b></td>
                   <td class="text-center">
                     <a href="/books/<%= books[count]._id %>"
                         class="btn btn-primary"><i class="fa fa-edit"></i> Edit</a>
