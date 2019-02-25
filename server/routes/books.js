@@ -63,7 +63,7 @@ book.create(newBook, (err, contactModel) => {
    
 });
 
-// GET the Book Details page in order to edit an existing Book
+// GET the Book Details page to edit an existing Book
 router.get('/:id', (req, res, next) => {
 
     let id = req.params.id;
@@ -75,7 +75,7 @@ router.get('/:id', (req, res, next) => {
         }
         else
         {
-            // show the edit view
+            // show the edit view 
             res.render('books/details', {
                 title: 'Edit Books Details',
                 books: bookObject
@@ -84,7 +84,7 @@ router.get('/:id', (req, res, next) => {
     });
 });
 
-// POST - process the information passed from the details form and update the document
+// POST - process the information  from the book details  and update
 router.post('/:id', (req, res, next) => {
 
     let id = req.params.id;
@@ -110,7 +110,7 @@ router.post('/:id', (req, res, next) => {
 
 });
 
-// GET - process the delete by user id
+// GET -  delete by user id
 router.get('/delete/:id', (req, res, next) => {
 
   let id = req.params.id;

@@ -17,6 +17,7 @@ Web App Name: COMP308-W2019-Midterm
           <a href="/books/add" class="btn btn-primary"><i class="fa fa-plus"></i> Add a book</a>
           <br>
           <br>
+          <!-- table formation-->
           <div class="table-responsive">
             <table class="table table-bordered table-striped table-hover">
               <thead>
@@ -30,7 +31,7 @@ Web App Name: COMP308-W2019-Midterm
                 </tr>
                 </thead>
                 <tbody>
-                <!-- Template Row -->
+                <!-- for loop to display the number of books using count -->
                 <% for (let count = 0; count < books.length; count++) { %>
                 <tr>
                   <td><b><%= books[count].Title %></b></td>
